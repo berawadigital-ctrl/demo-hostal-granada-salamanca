@@ -1,0 +1,43 @@
+# Base de conocimiento es/en/fr/de de Hostal Granada (Salamanca). Citas literales de berawa/evidence/source-text.json (hostalgranadasalamanca.com, leido el 30/10/2026). Sin precios: su pagina de tarifas no publica cifras.
+U='https://hostalgranadasalamanca.com/'
+def E(id,topic,keys,a,src,cta=False): return dict(id=id,topic=topic,keys=keys,a=a,sources=[dict(url=U+u,quote=q) for u,q in src],cta=cta)
+CO='contacto/';RS='reservar/';QV='que-visitar/'
+ENTRIES=[
+E('K01','habitaciones',
+ dict(es=['habitaciones','que tienen','bano','television',' tv'],en=['rooms','room have','bathroom','television',' tv'],fr=['chambres','qu ont','salle de bain','television',' tv'],de=['zimmer','was bieten',' bad','fernseh',' tv']),
+ dict(es='Las habitaciones tienen baño completo y TV, con Wi-Fi gratis y aire acondicionado.',en='The rooms have a full bathroom and TV, with free Wi-Fi and air conditioning.',fr='Les chambres ont une salle de bain complète et la TV, avec Wi-Fi gratuit et climatisation.',de='Die Zimmer haben ein komplettes Bad und TV, mit kostenlosem WLAN und Klimaanlage.'),
+ [('','Habitaciones con baño completo y TV'),('','Wi-Fi gratis Aire acondicionado')]),
+E('K02','wifi',
+ dict(es=['wifi','wi-fi','internet'],en=['wifi','wi-fi','internet'],fr=['wifi','wi-fi','internet'],de=['wlan','wifi','internet']),
+ dict(es='Sí, el Wi-Fi es gratis y la conexión a Internet es gratuita.',en='Yes, Wi-Fi is free and the Internet connection is free of charge.',fr='Oui, le Wi-Fi est gratuit et la connexion Internet est gratuite.',de='Ja, das WLAN ist kostenlos und der Internetzugang ebenfalls.'),
+ [('','Conexión gratuita a Internet.'),('','Wi-Fi gratis')]),
+E('K03','climatizacion',
+ dict(es=['aire acondicionado','climatizacion','calor'],en=['air conditioning','air-conditioning','aircon'],fr=['climatisation','clim'],de=['klimaanlage','klima']),
+ dict(es='Sí, el hostal tiene aire acondicionado.',en='Yes, the hostal has air conditioning.',fr='Oui, l’hostal est climatisé.',de='Ja, das Hostal hat eine Klimaanlage.'),
+ [('','Aire Acondicionado Hostal Certificado')]),
+E('K04','ubicacion',
+ dict(es=['donde','direccion','ubicacion','como llegar','plaza mayor'],en=['where','address','location','get there','plaza mayor'],fr=['ou se trouv','adresse','emplacement','acceder','plaza mayor'],de=['wo liegt','adresse','lage','anfahrt','plaza mayor']),
+ dict(es='Está en la calle Fray Luis de Granada 12, 37007 Salamanca, a tan solo 5 minutos de la Plaza Mayor.',en='It is at Calle Fray Luis de Granada 12, 37007 Salamanca, just 5 minutes from the Plaza Mayor.',fr='Il se trouve Calle Fray Luis de Granada 12, 37007 Salamanque, à seulement 5 minutes de la Plaza Mayor.',de='Es liegt in der Calle Fray Luis de Granada 12, 37007 Salamanca, nur 5 Minuten von der Plaza Mayor.'),
+ [('','C. Fray Luis de Granada, Nº 12, 37007 Salamanca'),('','situado a tan sólo 5 minutos de la Plaza Mayor')]),
+E('K05','reservar',
+ dict(es=['reserv','disponib','confirm'],en=['book','reserv','availab','confirm'],fr=['reserv','disponib','confirm'],de=['buch','reserv','verfugbar','bestatig']),
+ dict(es='Puedes comprobar la disponibilidad eligiendo las fechas en su plataforma de reservas (botón Reservar) o llamar al +34 923 62 29 77. Este asistente no confirma disponibilidad ni reservas.',
+  en='You can check availability by choosing your dates on their booking platform (Book button) or call +34 923 62 29 77. This assistant does not confirm availability or bookings.',
+  fr='Vous pouvez vérifier la disponibilité en choisissant vos dates sur leur plateforme de réservation (bouton Réserver) ou appeler le +34 923 62 29 77. Cet assistant ne confirme ni disponibilité ni réservation.',
+  de='Sie können auf der Buchungsplattform (Schaltfläche Buchen) Ihre Daten wählen und die Verfügbarkeit prüfen oder +34 923 62 29 77 anrufen. Dieser Assistent bestätigt weder Verfügbarkeit noch Buchungen.'),
+ [(RS,'Comprueba la disponibilidad eligiendo las fechas y confirma tus datos en nuestra plataforma de reservas.'),(CO,'Teléfono ( +34 ) 923 62 29 77')],cta=True),
+E('K06','contacto',
+ dict(es=['telefono','llamar','correo','email','contacto'],en=['phone','call','email','contact'],fr=['telephone','appeler','courriel','email','contact'],de=['telefon','anrufen','e-mail','email','kontakt']),
+ dict(es='Teléfono +34 923 62 29 77 y correo reservas@hostalgranadasalamanca.com; también puedes ir en persona al hostal.',en='Phone +34 923 62 29 77 and email reservas@hostalgranadasalamanca.com; you can also visit the hostal in person.',fr='Téléphone +34 923 62 29 77 et courriel reservas@hostalgranadasalamanca.com ; vous pouvez aussi passer à l’hostal.',de='Telefon +34 923 62 29 77 und E-Mail reservas@hostalgranadasalamanca.com; Sie können auch persönlich ins Hostal kommen.'),
+ [(CO,'Teléfono ( +34 ) 923 62 29 77 reservas@hostalgranadasalamanca.com'),(CO,'Puedes contactarnos personalmente en el hostal, por teléfono o por coreo electrónico.')]),
+E('K07','que_visitar',
+ dict(es=['visitar','monumento','ver cerca','catedral','universidad'],en=['visit','monument','nearby','cathedral','university'],fr=['visiter','monument','proximite','cathedrale','universite'],de=['besichtig','sehenswurd','in der nahe','kathedrale','universitat']),
+ dict(es='Su web recomienda, entre otros, la Plaza Mayor, la Casa de las Conchas, la Casa Lis, la Catedral Nueva, la Clerecía, el Convento de San Esteban y la fachada de la Universidad.',en='Their website recommends, among others, the Plaza Mayor, the Casa de las Conchas, the Casa Lis, the New Cathedral, La Clerecía, the Convent of San Esteban and the University façade.',fr='Leur site recommande notamment la Plaza Mayor, la Casa de las Conchas, la Casa Lis, la Cathédrale Neuve, la Clerecía, le couvent de San Esteban et la façade de l’Université.',de='Die Website empfiehlt unter anderem die Plaza Mayor, die Casa de las Conchas, die Casa Lis, die Neue Kathedrale, La Clerecía, das Kloster San Esteban und die Universitätsfassade.'),
+ [(QV,'Casa de las Conchas'),(QV,'Casa Lis'),(QV,'Catedral Nueva'),(QV,'La Clerecía'),(QV,'Plaza Mayor'),(QV,'Convento de San Esteban'),(QV,'Fachada de la Universidad')]),
+E('K08','categoria',
+ dict(es=['estrellas','categoria'],en=['stars','category','star rating'],fr=['etoiles','categorie'],de=['sterne','kategorie']),
+ dict(es='Es un hostal certificado de dos estrellas.',en='It is a certified two-star hostal.',fr='C’est un hostal certifié deux étoiles.',de='Es ist ein zertifiziertes Zwei-Sterne-Hostal.'),
+ [('','Hostal Certificado Dos estrellas, con todas las comodidades.')]),
+]
+KB=dict(schema='berawa-knowledge/1',project='demo-hostal-granada-salamanca',source_site=U,source_read_at='2026-10-30T10:51:00+01:00',
+ note='Respuestas solo con datos publicados en la web del negocio. Sin coincidencia: el asistente dice que no dispone de la informacion y ofrece contacto.',entries=ENTRIES)
