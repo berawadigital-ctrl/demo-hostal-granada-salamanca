@@ -1,0 +1,42 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://hostalgranadasalamanca.com/",
+ "read_at": "2026-10-30T10:51:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://hostalgranadasalamanca.com/",
+   "sha256": "2ea4b5e72fed5248c1a1c19fe038970687cf2b5780e60b4befb9b239692fa07e",
+   "chars": 4528
+  },
+  {
+   "url": "https://hostalgranadasalamanca.com/contacto/",
+   "sha256": "294ca6672e9fc00c85ff77033d3d6361242ab206f2368d7ecf792d15d0a3c1ad",
+   "chars": 3673
+  },
+  {
+   "url": "https://hostalgranadasalamanca.com/que-visitar/",
+   "sha256": "f5e49e9f31817ff909e8e93096e65612274949aaf33d5ecc844d9ebe6d73f8d5",
+   "chars": 3498
+  },
+  {
+   "url": "https://hostalgranadasalamanca.com/reservar/",
+   "sha256": "b8ed4ceda9839f23803a204f940abe23f03d2f4c2c7ff83e062151c65815a90b",
+   "chars": 2786
+  }
+ ],
+ "other_pages_read": [
+  "https://hostalgranadasalamanca.com",
+  "https://hostalgranadasalamanca.com/aviso-legal/",
+  "https://hostalgranadasalamanca.com/galeria-de-fotos/",
+  "https://hostalgranadasalamanca.com/libro-de-visitas/",
+  "https://hostalgranadasalamanca.com/nueva-web/",
+  "https://hostalgranadasalamanca.com/politica-de-cookies-ue/",
+  "https://hostalgranadasalamanca.com/politica-de-privacidad/",
+  "https://hostalgranadasalamanca.com/tarifas/",
+  "https://hostalgranadasalamanca.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2",
+  "https://hostalgranadasalamanca.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2",
+  "https://hostalgranadasalamanca.com/wp-content/uploads/elementor/google-fonts/fonts/italiana-qldnnttlsx4e__b0xqmwaxw.woff2",
+  "https://hostalgranadasalamanca.com/wp-content/uploads/elementor/google-fonts/fonts/sourcesanspro-6xk1dsbykcsv-lcoeqqfx1ryoo3qpz7nsdi.woff2"
+ ]
+}

@@ -1,0 +1,351 @@
+{
+ "url": "file:///tmp/zip-hostal-granada-salamanca/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué tienen las habitaciones?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Las habitaciones tienen baño completo y TV, con Wi-Fi gratis y aire acondicionado."
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí, el Wi-Fi es gratis y la conexión a Internet es gratuita."
+    },
+    {
+     "q": "¿Tienen aire acondicionado?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Sí, el hostal tiene aire acondicionado."
+    },
+    {
+     "q": "¿Dónde está el hostal?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Está en la calle Fray Luis de Granada 12, 37007 Salamanca, a tan solo 5 minutos de la Plaza Mayor."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Puedes comprobar la disponibilidad eligiendo las fechas en su plataforma de reservas (botón Reservar) o llamar al +34 923 62 29 77. Este asi"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Puedes comprobar la disponibilidad eligiendo las fechas en su plataforma de reservas (botón Reservar) o llamar al +34 923 62 29 77. Este asi"
+    },
+    {
+     "q": "¿Cuál es el teléfono?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Teléfono +34 923 62 29 77 y correo reservas@hostalgranadasalamanca.com; también puedes ir en persona al hostal."
+    },
+    {
+     "q": "¿Qué puedo visitar cerca?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Su web recomienda, entre otros, la Plaza Mayor, la Casa de las Conchas, la Casa Lis, la Catedral Nueva, la Clerecía, el Convento de San Este"
+    },
+    {
+     "q": "¿Cuántas estrellas tiene?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Es un hostal certificado de dos estrellas."
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 923 62 29 77 · reservas@hostalgranadasalamanca.com."
+    },
+    {
+     "q": "¿Tenéis piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 923 62 29 77 · reservas@hostalgranadasalamanca.com."
+    },
+    {
+     "q": "¿Hay gimnasio?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 923 62 29 77 · reservas@hostalgranadasalamanca.com."
+    }
+   ],
+   "chips": [
+    "¿Qué tienen las habitaciones?",
+    "¿Dónde está el hostal?",
+    "¿Qué puedo visitar cerca?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "svc1"
+   ],
+   "chat": [
+    {
+     "q": "What do the rooms have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "The rooms have a full bathroom and TV, with free Wi-Fi and air conditioning."
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Yes, Wi-Fi is free and the Internet connection is free of charge."
+    },
+    {
+     "q": "Is there air conditioning?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Yes, the hostal has air conditioning."
+    },
+    {
+     "q": "Where is the hostal?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "It is at Calle Fray Luis de Granada 12, 37007 Salamanca, just 5 minutes from the Plaza Mayor."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "You can check availability by choosing your dates on their booking platform (Book button) or call +34 923 62 29 77. This assistant does not "
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "You can check availability by choosing your dates on their booking platform (Book button) or call +34 923 62 29 77. This assistant does not "
+    },
+    {
+     "q": "What is the phone number?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Phone +34 923 62 29 77 and email reservas@hostalgranadasalamanca.com; you can also visit the hostal in person."
+    },
+    {
+     "q": "What can I visit nearby?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Their website recommends, among others, the Plaza Mayor, the Casa de las Conchas, the Casa Lis, the New Cathedral, La Clerecía, the Convent "
+    },
+    {
+     "q": "How many stars does it have?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "It is a certified two-star hostal."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 923 62 29 77 · reservas@hostalgranadasalamanca.com."
+    },
+    {
+     "q": "Do you have a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 923 62 29 77 · reservas@hostalgranadasalamanca.com."
+    },
+    {
+     "q": "Is there a gym?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 923 62 29 77 · reservas@hostalgranadasalamanca.com."
+    }
+   ],
+   "chips": [
+    "What do the rooms have?",
+    "Where is the hostal?",
+    "What can I visit nearby?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "stat0",
+    "svc1"
+   ],
+   "chat": [
+    {
+     "q": "Qu’ont les chambres ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Les chambres ont une salle de bain complète et la TV, avec Wi-Fi gratuit et climatisation."
+    },
+    {
+     "q": "Y a-t-il le wifi ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Oui, le Wi-Fi est gratuit et la connexion Internet est gratuite."
+    },
+    {
+     "q": "Y a-t-il la climatisation ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Oui, l’hostal est climatisé."
+    },
+    {
+     "q": "Où se trouve l’hostal ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Il se trouve Calle Fray Luis de Granada 12, 37007 Salamanque, à seulement 5 minutes de la Plaza Mayor."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Vous pouvez vérifier la disponibilité en choisissant vos dates sur leur plateforme de réservation (bouton Réserver) ou appeler le +34 923 62"
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Vous pouvez vérifier la disponibilité en choisissant vos dates sur leur plateforme de réservation (bouton Réserver) ou appeler le +34 923 62"
+    },
+    {
+     "q": "Quel est le numéro de téléphone ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Téléphone +34 923 62 29 77 et courriel reservas@hostalgranadasalamanca.com ; vous pouvez aussi passer à l’hostal."
+    },
+    {
+     "q": "Que visiter à proximité ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Leur site recommande notamment la Plaza Mayor, la Casa de las Conchas, la Casa Lis, la Cathédrale Neuve, la Clerecía, le couvent de San Este"
+    },
+    {
+     "q": "Combien d’étoiles a-t-il ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "C’est un hostal certifié deux étoiles."
+    },
+    {
+     "q": "Combien coûte la nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 923 62 29 77 · reservas@hostalgranadasalamanca.com."
+    },
+    {
+     "q": "Avez-vous une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 923 62 29 77 · reservas@hostalgranadasalamanca.com."
+    },
+    {
+     "q": "Y a-t-il une salle de sport ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 923 62 29 77 · reservas@hostalgranadasalamanca.com."
+    }
+   ],
+   "chips": [
+    "Qu’ont les chambres ?",
+    "Où se trouve l’hostal ?",
+    "Que visiter à proximité ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "svc1"
+   ],
+   "chat": [
+    {
+     "q": "Was bieten die Zimmer?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Die Zimmer haben ein komplettes Bad und TV, mit kostenlosem WLAN und Klimaanlage."
+    },
+    {
+     "q": "Gibt es WLAN?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Ja, das WLAN ist kostenlos und der Internetzugang ebenfalls."
+    },
+    {
+     "q": "Gibt es eine Klimaanlage?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Ja, das Hostal hat eine Klimaanlage."
+    },
+    {
+     "q": "Wo liegt das Hostal?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Es liegt in der Calle Fray Luis de Granada 12, 37007 Salamanca, nur 5 Minuten von der Plaza Mayor."
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Sie können auf der Buchungsplattform (Schaltfläche Buchen) Ihre Daten wählen und die Verfügbarkeit prüfen oder +34 923 62 29 77 anrufen. Die"
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Sie können auf der Buchungsplattform (Schaltfläche Buchen) Ihre Daten wählen und die Verfügbarkeit prüfen oder +34 923 62 29 77 anrufen. Die"
+    },
+    {
+     "q": "Wie lautet die Telefonnummer?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Telefon +34 923 62 29 77 und E-Mail reservas@hostalgranadasalamanca.com; Sie können auch persönlich ins Hostal kommen."
+    },
+    {
+     "q": "Was kann ich in der Nähe besichtigen?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Die Website empfiehlt unter anderem die Plaza Mayor, die Casa de las Conchas, die Casa Lis, die Neue Kathedrale, La Clerecía, das Kloster Sa"
+    },
+    {
+     "q": "Wie viele Sterne hat es?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Es ist ein zertifiziertes Zwei-Sterne-Hostal."
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 923 62 29 77 · reservas@hostalgranadasalamanca.com."
+    },
+    {
+     "q": "Haben Sie ein Schwimmbad?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 923 62 29 77 · reservas@hostalgranadasalamanca.com."
+    },
+    {
+     "q": "Gibt es ein Fitnessstudio?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 923 62 29 77 · reservas@hostalgranadasalamanca.com."
+    }
+   ],
+   "chips": [
+    "Was bieten die Zimmer?",
+    "Wo liegt das Hostal?",
+    "Was kann ich in der Nähe besichtigen?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
